@@ -1,7 +1,7 @@
 # adalm-stimulation
 
 ## Description
-[Add a brief description of what the project does and what the ADALM device is used for]
+This repository contains code to interface with the Analog Devices ADALM1000. The code allows for voltage or current-controlled stimulation and automatically records current and voltage. 
 
 ## Prerequisites
 - Windows operating system
@@ -52,8 +52,18 @@ python -m venv venv-py310
 pip install -r requirements.txt
 ```
 
+## Mac Installation Instructions
+
+1. Clone the repository:
+```powershell
+git clone https://github.com/WinnemacLabs/adalm-stimulation.git
+cd adalm-stimulation
+```
+
+
 ## Usage
-[Add instructions on how to run the program and any common commands]
+Programs should be run while ADALM1000 is plugged into USB port. 
+
 
 ## Troubleshooting
 Common issues and their solutions:
